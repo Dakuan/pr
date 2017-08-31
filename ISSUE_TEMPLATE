@@ -1,10 +1,25 @@
+_Please fill in a basic description of what this Pull Request is about. What feature / bug / chore does it implement? What steps were taken? What decisions were made? You should make it easy for the reviewer to understand what the code is supposed to be doing._
 
+_Pivotal Tracker ticket: {url to corresponding ticket}_
 
 ## Checklist
-To be ticked off by the engineer, then verified by the reviewer
+To be ticked off by the engineer, then verified by the reviewer. If these are not relevant, leave a note explaining why.
 
 ### UI
 
+#### Have you verified in the browser that this ticket is complete?
+- [ ] engineer
+- [ ] reviewer
+
+#### Is there an appropriate level of testing?
+- [ ] engineer
+- [ ] reviewer
+
+#### Have you checked the feature against the designs?
+- [ ] engineer
+- [ ] reviewer
+
+####
 
 ### API
 #### Does this api have 100% code coverage?
@@ -12,10 +27,26 @@ To be ticked off by the engineer, then verified by the reviewer
 - [ ] reviewer
 
 #### Do the tests cover security edge cases? 
-eg does the resource being fetched or modified belong to the users organisation?
+_eg does the resource being fetched or modified belong to the users organisation?_
 - [ ] engineer
 - [ ] reviewer
 
 #### Do the tests cover validation and sanitisation of the input?
 - [ ] engineer
 - [ ] reviewer
+
+#### Have you considered how to handle failures in background processes?
+- [ ] engineer
+- [ ] reviewer
+
+### Devops
+
+#### Are there migrations for production data as well as schema?
+- [ ] engineer
+- [ ] reviewer
+
+####  Have any required release tickets been created?
+- [ ] engineer
+- [ ] reviewer
+
+
