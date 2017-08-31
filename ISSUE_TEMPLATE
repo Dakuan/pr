@@ -1,4 +1,21 @@
 
+
 ## Checklist
+To be ticked off by the engineer, then verified by the reviewer
+
+### UI
+
+
 ### API
- -[] tick
+#### Does this api have 100% code coverage?
+- [ ] engineer
+- [ ] reviewer
+
+#### Do the tests cover security edge cases? 
+eg does the resource being fetched or modified belong to the users organisation?
+- [ ] engineer
+- [ ] reviewer
+
+#### Do the tests cover validation and sanitisation of the input?
+- [ ] engineer
+- [ ] reviewer
